@@ -47,7 +47,7 @@
                         <a class="nav-link js-scroll-trigger" href="#about">我</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#interests">业余生活</a>
+                        <a class="nav-link js-scroll-trigger" href="#interests">闲情逸趣</a>
                     </li>
                 </ul>
             </div>
@@ -58,17 +58,18 @@
             <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
                 <div class="w-100">
                     <h1 class="mb-0">Yuxin Hou</h1>
-                    <div class="mb-5">
-                        <a href="mailto:houyx@shanghaitech.edu.cn">Email: houyx@shanghaitech.edu.cn</a><br>
-                    </div>
-                    <p class="lead mb-5"></p>
+                    <p class="mb-5"></p>
                     <div class="social-icons">
+                        <a href="mailto:houyx@shanghaitech.edu.cn">
+                            <img src="images/icons/email.png" alt="email" class="icon"></a>
+                        <a data-toggle="tooltip" data-html="true" data-animation="true"
+                            title="<img src='images/icons/QR_wechat.jpg' class='img-fluid'>">
+                            <img src="images/icons/wechat.png" alt="wechat" class="icon"></a>
                         <a href="https://space.bilibili.com/6454144">
-                            <img src="images/icons/bilibili.png" alt="bilibili" class="icon" style="height: 1.11rem;"></a>
+                            <img src="images/icons/bilibili.png" alt="bilibili" class="icon"
+                                style="vertical-align:-3px"></a>
                         <a href="https://weibo.com/yuxin2016">
                             <img src="images/icons/weibo.png" alt="weibo" class="icon"></a>
-                        <a href="">
-                            <img src="images/icons/wechat.png" alt="wechat" class="icon"></a>
                     </div>
                 </div>
             </section>
@@ -77,7 +78,7 @@
 
             <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
                 <div class="w-100">
-                    <h2 class="mb-5">业余生活</h2>
+                    <h2 class="mb-5">闲情逸趣</h2>
                     <p>懒散，好玩。</p>
                 </div>
             </section>
@@ -104,6 +105,11 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
     <script src="js/resume.min.js"></script>
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
 </body>
 
 </html>
